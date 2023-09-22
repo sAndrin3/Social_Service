@@ -21,6 +21,7 @@ namespace MicroService_Frontend
 
 
             builder.Services.AddScoped<IAuthInterface, AuthService>();
+            builder.Services.AddScoped<IPostInterface, PostService>();
 
             // Authprovider configuration
             builder.Services.AddOptions();
